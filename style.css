@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://miro.medium.com/max/1080/1*YBmB5ot7SButH6TkIaA1mg.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#Header h1 {
+  text-align: center;
+  font-weight: bolder;
+  padding: 10px;
+  margin: 40px;
+}
+
+.form {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  height: 700px;
+  color: white;
+  border-radius: 10px;
+  opacity: 0.75;
+  border: 500px;
+}
