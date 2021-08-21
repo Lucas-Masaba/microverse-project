@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="Header">
+        <!--This is header-->
+        <h1 id="title">
+            Microverse ID form
+        </h1>
+        <p id="description">
+
+        </p>
+    </div>
+    <form id="survey-form">
+        <!--this is a form-->
+        <label for="name">Name</label>
+        <input placeholder="name" id="name" type="text">
+        <label for="email">Email</label>
+        <input placeholder="email" id="email" type="email">
+        <label for="number">Age</label>
+        <input placeholder="how old are you" id="number" type="number" min="18" max="60">
+        <label for="dropdown">What part of the team do you want to be?</label>
+        <select id="dropdown">
+            
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="staff">Staff</option>
+            <option value="alumni">Alumni</option>
+        </select>
+        <h4>How much time do you chose to spend?</h4>
+        <label for="4 hours">4 hours</label>
+        <input type="radio" name="hour" id="4 hours" value="4 hours">
+        <label for="3 hours">3 hours</label>
+        <input type="radio" name="hour" id="3 hours" value="3 hours">
+        <label for="2 hours">2 hours</label>
+        <input type="radio" name="hour" id="2 hours" value="2 hours">
+        <input type="checkbox" value="" name="">
+        <input type="checkbox" value="" name="">
+        <input type="checkbox" value="" name="">
+        <textarea row="5" column="50">
+
+        </textarea>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
